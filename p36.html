@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            css table:styling even and odd cells
+        </title>
+        <style>
+            tr:nth-child(even){
+                background-color: white;
+
+            }
+            tr:nth-child(even){
+                background-color: blue;
+
+
+            }
+            tr:nth-child(even) td:nth-child(even){
+                color:red;
+                font-weight: bold;
+
+            }
+            tr:nth-child(odd) td:nth-child(odd){
+                color:blue;
+                font-style: italic;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+            <td> row 1, cell 1</td>
+            <td>Row1 , Cell2</td>
+            </tr>
+            <tr>
+                <td>row2, cell1</td>
+                <td>Row2, Cell2</td>
+            </tr>
+            <tr>
+                <td> row3, cell1</td>
+                <td> row3, cell2</td>
+            </tr>
+        </table>
+
+    </body>
+</html>
